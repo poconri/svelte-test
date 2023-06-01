@@ -1,6 +1,15 @@
 <script lang="ts">
 
-let heroes:any[] = [];
+let heroes:{
+    name:string;
+    id: number;
+    images:{
+        sm:string;
+    };
+    biography:{
+        fullName:string;
+    };
+}[] = [];
 let searchValue = '';
 
 const fetchHeroes = () => {

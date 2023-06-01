@@ -1,0 +1,2 @@
+*.svelte linguist-detectable=true
+*.svelte linguist-language=Svelte
